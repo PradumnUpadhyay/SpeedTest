@@ -1,9 +1,10 @@
-# SpeedTest
-
 <h1> Monitor your internet speed from terminal. </h1>
 <hr>
 
           Run the following commands in terminal:
-             1. npm install -g 
+          
+            Command to install the required dependencies
+                <b>npm install -g</b> 
              
-             2. speedtest
+             Now, to check internet speed type
+                <b>speedtest</b>
