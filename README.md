@@ -1,4 +1,4 @@
-<h1> Monitor your internet speed from terminal. </h1>
+<h1> Check your internet speed from terminal. </h1>
 <hr>
 
           Run the following commands in terminal:
