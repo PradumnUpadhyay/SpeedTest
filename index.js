@@ -13,21 +13,13 @@ test.on('testserver', function(server) {
     pingTime = server.bestPing;
 });
 
-// Invoke every time when download speed check begin
-// Return completion value in percentage
-
 test.on('downloadprogress', function(val){
     prog('Checking Download Speed ', val);
 });
 
-// Invoke every time when upload speed check begin
-// Return completion value in percentage
-
 test.on('uploadprogress', function(val){
     prog('Checking Upload Speed ', val);
 });
-
-// Invoke When final data recieved
 
 test.on('data',function(data){
     console.log(chalk.cyan("Ping : "), Math.abs(pingTime),chalk.dim('ms'));
