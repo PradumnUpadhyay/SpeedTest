@@ -38,7 +38,6 @@ function prog(info, val){
     if (val>=100){
          if (bar) bar.terminate();
         bar=null;
-        console.log(bar);
         return;
     }
     // if bar object is not created
